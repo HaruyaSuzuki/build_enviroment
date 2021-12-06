@@ -34,10 +34,12 @@ chmod +x init.sh || ./init.sh [your project name]
 ```
 
 4. Answer the question(Do you use tailwind.css? (if you answer "n/N" => install sass, gulp-sass, gulp-autoprefixer, gulp-rename and that settings.) [y/N])
+
 if you answer "y/Y" => install taiwnd.css and that settings.
 if you answer "n/N" => install sass, gulp-sass, gulp-autoprefixer, gulp-rename and that settings.
 
 5. Answer the question(Do you use Swiper.js? [y/N])
+
 if you answer "y/Y" => install swiper.js
 if you answer "n/N" => skip
 
