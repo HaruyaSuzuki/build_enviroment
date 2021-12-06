@@ -348,7 +348,7 @@ const Home: NextPage = () => {
 
 export default Home" > pages/index.tsx
 	sed -i '' -e '1d' pages/_app.tsx
-	sed -i '' -e '1s/^/import \"styles\/globals\/min.css\";\n/' pages/_app.tsx
+	sed -i '' -e '1s/^/import \"styles\/globals.min.css\";\n/' pages/_app.tsx
 }
 
 function ft_init(){
