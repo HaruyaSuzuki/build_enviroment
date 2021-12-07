@@ -306,6 +306,15 @@ object { display: block; }
 
 // Import files
 @import \"modules/reset\";
+
+// Container
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 7px;
+	box-sizing: border-box;
+	@include responsive-width;
+}
 " > styles/globals.scss
 }
 
