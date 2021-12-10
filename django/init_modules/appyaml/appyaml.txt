@@ -1,0 +1,26 @@
+runtime: python39 # or another supported version
+
+instance_class: F1
+
+env_variables:
+  BUCKET_NAME: "example-gcs-bucket"
+
+entrypoint: gunicorn -b :$PORT config.wsgi:application
+
+includes:
+- secrets/secret.yaml
+
+resources:
+  memory_gb: 4
+
+handlers:
+# Matches requests to /images/... to files in static/images/...
+- url: /media
+  static_dir: media/
+- url: /static
+  static_dir: staticfiles/
+# Magic
+- url: .*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto

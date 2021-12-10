@@ -1,0 +1,6 @@
+bin/
+lib/
+django/
+secrets/
+db.sqlite3
+pyvenv.cfg
