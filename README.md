@@ -1,5 +1,9 @@
 # build_enviroment
+![](https://img.shields.io/badge/Bash-708090?style=for-the-badge&logo=gnubash)
+
 ## Next.js(nextjs)
+![](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs)
+
 ### install packages
 - Next.js(latest ver.)
 - Gulp.js(sass gulp-sass gulp-autoprefixer gulp-rename)
@@ -46,6 +50,8 @@ if you answer "n/N" => skip
 6. Complete!
 
 ## Django(django) => created at 2021.7.18
+![](https://img.shields.io/badge/Django-092e20?style=for-the-badge&logo=django)
+
 ### install packages
 1. install build_enviroment
 ```
