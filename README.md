@@ -1,6 +1,8 @@
 # build_enviroment
 ![](https://img.shields.io/badge/Bash-708090?style=for-the-badge&logo=gnubash)
 
+Set up the build environment with shell script.
+
 ## Next.js(nextjs)
 ![](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs)
 
